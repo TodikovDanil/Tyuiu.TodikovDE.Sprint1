@@ -6,7 +6,7 @@ namespace Tyuiu.TodikovDE.Sprint1.Task0.V24
         private static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнил: Тодиков Д. Э. | ИСТНб-24-1";
+            Console.Title = "Спринт #1 | Выполнил: Тодиков Д.Э. | ИСТНб-24-1";
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спритн #1                                                              *");
             Console.WriteLine("* Тема: Создания итогого решения по спринту                              *");
@@ -25,8 +25,6 @@ namespace Tyuiu.TodikovDE.Sprint1.Task0.V24
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
-
-
             Console.WriteLine(ds.Calculate());
             Console.ReadLine();
         }
